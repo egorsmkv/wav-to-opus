@@ -29,23 +29,23 @@ curl -Ls https://downloads.xiph.org/releases/opus/opus-tools-0.2.tar.gz | tar xz
 cd "$TEMP_FOLDER"/opus-1.5.2 || exit
 
 ./configure
-make && sudo make install
+make && make install
 
 cd "$TEMP_FOLDER"/opusfile-0.12 || exit
 
 ./configure
-make && sudo make install
+make && make install
 
 cd "$TEMP_FOLDER"/libopusenc-0.2.1 || exit
 
 ./configure
-make && sudo make install
+make && make install
 
 cd "$TEMP_FOLDER"/opus-tools-0.2 || exit
 ./configure
 make
-sudo make install
-sudo ldconfig
+make install
+ldconfig
 
 # Cleanup
 

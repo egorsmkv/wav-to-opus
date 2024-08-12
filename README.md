@@ -6,9 +6,11 @@
 ## Install
 
 ```shell
-apt-get install build-essential
+apt-get install build-essential pkg-config
 
-apt-get install opus-tools parallel
+apt-get install parallel
+
+bash compile-opus.sh
 ```
 
 ## Encode
