@@ -6,9 +6,7 @@
 ## Install
 
 ```shell
-apt-get install build-essential pkg-config file libssl-dev
-
-apt-get install parallel
+apt-get install parallel build-essential pkg-config file libssl-dev
 
 bash compile-opus.sh
 ```
