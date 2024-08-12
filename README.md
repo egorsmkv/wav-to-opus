@@ -6,7 +6,7 @@
 ## Install
 
 ```shell
-apt-get install build-essential pkg-config
+apt-get install build-essential pkg-config file libssl-dev
 
 apt-get install parallel
 
